@@ -17,6 +17,26 @@ function generateMarkdown(data) {
    - [Tests](#tests)
    - [Questions](#questions)
 
+   ## Installation
+   ${data.installation}
+
+   ## Usage
+   ${data.usage}
+
+   ## License
+   ![badge](https://img.shields.io/badge/license-${data.license})
+
+   This application is covered by the ${data.license} license.
+
+   ## Contributing
+   ${data.license}
+
+   ## Tests
+   ${data.tests}
+
+   ## Questions
+   ${data.questions}
+
 `;
 }
 
