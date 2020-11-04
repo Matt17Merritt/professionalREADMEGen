@@ -73,8 +73,12 @@ function promptUser(){
 // Async function via util.promisify
 async function init() {
     try {
+        // Ask questions and gen response
         const data = await promptUser();
         const createContent = generateMarkdown(data);
+        // Write the new readme to result folder
+        await writeFileAsync('./result/README.md', createContent);
+        console.log('wrote file correctly');
     } catch (err) {
         console.log(err);
     }
@@ -86,4 +90,5 @@ async function init() {
 
 
 
-promptUser();
+//promptUser();
+//init();
