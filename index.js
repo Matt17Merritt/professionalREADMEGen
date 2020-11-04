@@ -1,9 +1,10 @@
 console.log('Hello Node!')
 // declaring variables and dependencies
 const fs = require("fs");
+const util = require("util");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown")
-
+const writeFileAsync = util.promisify(fs.writeFile);
 // prompt user for questions
 function promptUser(){
     return inquirer.prompt([
@@ -68,3 +69,21 @@ function promptUser(){
         }
     ]);
 }
+
+// Async function via util.promisify
+async function init() {
+    try {
+        const data = await promptUser();
+        const createContent = generateMarkdown(data);
+    } catch (err) {
+        console.log(err);
+    }
+}
+
+
+
+
+
+
+
+promptUser();
