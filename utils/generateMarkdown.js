@@ -43,6 +43,6 @@ function generateMarkdown(data) {
 
 `;
 }
-
+// links the generateMarkdown function to the index.js file
 module.exports = generateMarkdown;
 // USE THIS****

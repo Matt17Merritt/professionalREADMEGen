@@ -91,4 +91,4 @@ async function init() {
 
 
 //promptUser();
-//init();
+init();
