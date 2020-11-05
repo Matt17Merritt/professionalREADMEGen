@@ -1,10 +1,10 @@
 
-  <h1>professionalREADme</h1>
+  <h1>professional READmeGenerator</h1>
 
   ![badge](https://img.shields.io/badge/license-MIT)
 
   ## Description
-   ReadMe generator that asks user to submit information for their readme then writes it to a file.
+   node.js application that populates a readme based on inquirer prompts
 
    ## Table of Contents
    - [Description](#description)
@@ -19,7 +19,7 @@
    npm install inquirer
 
    ## Usage
-   GT full stack bootcamp 
+   GT fullstack bootcamp homework
 
    ## License
    ![badge](https://img.shields.io/badge/license-MIT)
@@ -33,7 +33,7 @@
    undefined
 
    ## Questions
-   Contact me<br />
+   Contact me via email or github<br />
 
    Find me on Github: [matt17merritt](https://github.com/matt17merritt)<br />
 

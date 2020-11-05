@@ -5,7 +5,7 @@
 🔍 A node.js application that uses user input from inquirer to write a README.md file for user repository. The README.md file is created in the result directory and can be found [here](.result/README.md)  
   
   
- The full movie file showing functionality of the application can be found [here]()  
+ The full movie file showing functionality of the application can be found [here](./src/functionality.webm)  
   
 ## User Story
   
@@ -54,7 +54,7 @@ THEN I am taken to the corresponding section of the README
   
 ## Usage
   
-  Run the following command at th root of your project and answer the questions:
+  Run the following command at the root of your project and answer the questions:
   
 `node index.js`
 
